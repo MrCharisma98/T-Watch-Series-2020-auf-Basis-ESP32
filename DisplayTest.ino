@@ -29,9 +29,9 @@ void axpWrite(uint8_t reg, uint8_t val) {
 
 void enablePower() {
   uint8_t pwr = axpRead(0x12);
-  pwr |= (1 << 4); // DCDC2
-  pwr |= (1 << 3); // LDO3 (LCD)
-  pwr |= (1 << 2); // LDO2 (Backlight)
+  pwr |= (1 << 4); 
+  pwr |= (1 << 3); 
+  pwr |= (1 << 2); 
   axpWrite(0x12, pwr);
 }
 
