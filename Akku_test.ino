@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 
-#define LILYGO_WATCH_2020_V3
+#define LILYGO_WATCH_2020_V1
 #include <LilyGoWatch.h>
 
 #define AXP202_ADDR 0x35
