@@ -203,13 +203,13 @@ void setup() {
   ttgo->tft->setCursor(20, 40);
   ttgo->tft->println("HELLO SAMPLE");
 
-  playTone(1000, 150);   // Kontroll-Beep
+  playTone(1000, 150);   
   delay(700);
 
   playHelloRaw();
   delay(1000);
   showCurrentTime();
-  playTimeRaw();      // Sprachsample
+  playTimeRaw();      
 }
 
 int mode = 0;
